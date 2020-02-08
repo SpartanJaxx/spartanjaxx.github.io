@@ -1,0 +1,127 @@
+body {
+    color: white;
+    font-family: "Times New Roman","Helvetica Neue","sans-serif", "Verdana";
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav .heading {
+    color: white;
+    font-size: 23px;
+    background: black;
+    padding: 1px;
+    width: 100%;
+}
+nav .h1 {
+    margin-left: 200px;
+}
+nav .nav-menu {
+  float: right;
+  list-style: none;
+  margin-top:40px;
+  margin-right: 30px;
+}
+
+nav .nav-menu li {
+  display: inline-block;
+}
+
+nav .nav-menu li a {
+  color: red;
+  text-decoration: none;
+  padding: 5px 30px;
+  font-size: 25px;
+  border-radius: 12px;
+  margin-right: 40px;
+
+}
+
+nav .nav-menu li a:hover {
+  background-color: grey;
+}
+
+nav .logo {
+    background-image: url("images/peto.png");
+    background-size: 65px;
+    width: 100px;
+    height:73px; 
+    text-indent: -99999px;
+    float: left;
+    margin-top: 27px;
+    margin-left: 22px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -10px;
+    display: inline-block;
+}
+
+content .text-background {
+    height: 1200px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 85%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+content .main-content {
+    height: 1000px;
+    float: left;
+    width:80%;
+    margin-left: 135px;
+    margin-top: 500px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-family: "sans-serif";
+    font-size: 25px;
+}
+
+content .homepage-image {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 220px;
+    margin-left: 900px;
+}
+
+
+
+
+
+
+
+
+
+footer .footer-foot {
+    background-color: black;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1605px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+
+
+
+
+
+
+
+
+

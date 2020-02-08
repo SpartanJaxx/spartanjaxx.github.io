@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="div_layout.css">
     <head>
         <title>
             Jackson Fontaine's Test Website
         </title>
-        <link rel="shortcut icon" type="image/x-icon" href="doggo.ico">
+        <link rel="stylesheet" type="text/css" href="shared-div-layout.css">
+        <style>
+            body {
+                background-image: url("images/doggini.jpg");
+                background-size:1500px;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+        </style>
     </head>
     <body>
-        <ul class="nav-menu">
-          <li> <a href=""> Home </a></li>
-          <li> <a href=""> About </a></li>
-          <li> <a href=""> Contact </a></li>
-          <li> <a href=""> News </a></li>
-        </ul>
-        <div class="heading">
-            <h1>Jackson Fontaine's Test Website</h1>
-        </div>
-        <div class="menu">
-            <p>This is a menu</p>
-        </div>
-        <div class="content">
-            <a href="https://www.cbhs.school.nz">This link goes to the CBHS homepage!</a>
-        </div>
+        <nav>
+            <div class="logo"><a href="index.html">Logo</a></div>
+            <ul class="nav-menu">
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="about_page.html"> About </a></li>
+                <li> <a href=""> News </a></li>
+            </ul>
+            <div class="heading">
+                <h1>Jackson Fontaine's Test Website</h1>
+            </div>
+        </nav>
+        <content>
+            <div class="text-background"></div>
+        </content>
+        <content>
+            <div class="main-content">
+                <center>
+                    <h1>I like Chicken, and this is why you should too</h1>
+                </center>
+                <p>Hey dudes, Welcome to my website! I know what your thinking... Why would someone ever make their own website? Well, I have the same question! </p><br>
+                <p>I have made this website for an assignment from my digital technologies class. It is my <br>hope that I have sucessfully gone above and beyond in doing so! My teacher is pretty<br> awesome, and so far Digital is my favorite subject, I feel like not only am I learning<br> something extremely useful, but I am having fun, and improving all the time.</p>
+                <div class="homepage-image"><img src="images/smiling-doggo.gif" height="200" width="250"></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </content>
+        <footer>
+            <div class="footer-foot">
+                <center>
+                This is the end of the Jackson Fontaine Homepage... Yes, yes, I know it's sad. But don't worry! There's more! Just move your eyes upwards till you can see the main navigation bar, and click on 'News' or 'About'. 
+                </center>
+            </div>
+        </footer>
     </body>
     </html>
