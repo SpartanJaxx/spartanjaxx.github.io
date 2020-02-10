@@ -8,6 +8,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    left:0;
 }
 
 nav .heading {
@@ -46,7 +47,7 @@ nav .nav-menu li a:hover {
 }
 
 nav .logo {
-    background-image: url("/foo/peto.png");
+    background-image: url("/Websites/digital-tech-website/images/peto.png");
     background-size: 65px;
     width: 100px;
     height:73px; 
@@ -174,6 +175,7 @@ content .gifs-content li p {
 content .gifs-content li a:hover {
     opacity: 0.5;
 }
+
 
 
 
