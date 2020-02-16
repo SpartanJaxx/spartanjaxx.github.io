@@ -2,10 +2,76 @@
 <html>
     <head>
         <title>
-            About Page
+            Jackson Fontaine's About Page
         </title>
+        <link rel="stylesheet" type="text/css" href="shared-div-layout.css">
+        <style>
+
+            body {
+                background-image: url("/Websites/digital-tech-website/images/about-dog.jpg");
+                background-size:100%; 
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            } 
+            content .main-content {
+                height: 570px;
+                float: left;
+                width:80%;
+                margin-left: 12%;
+                margin-top: 500px;
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: black;
+                font-family: "sans-serif";
+                font-size: 25px;
+            }
+            content .text-background {
+                height: 70%;
+                background-color: white;
+                opacity: 0.9;
+                margin-top: 500px;
+                margin-left: 8%;
+                width: 85%;
+                z-index: -2;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            footer .footer-foot {
+                margin-top: 1000px;
+            }
+
+        </style>
     </head>
     <body>
-        <p>This is a website that Jackson Fontaine is designing in digital technology class, and is learning all about css, and how it works</p>
+        <nav>
+            <div class="logo"><a href="index.html">Logo</a></div>
+            <ul class="nav-menu">
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="about_page.html"> About </a></li>
+                <li> <a href="../../index.html"> Back to Hub </a></li>
+            </ul>
+            <div class="heading">
+                <h1>Jackson Fontaine's Test Website: About Page</h1>
+            </div>
+        </nav>
+        <content>
+            <div class="text-background"></div> 
+        </content>
+        <content>
+            <div class="main-content">
+                <Center><h1>About Me</h1></Center>
+                <p>I made this website.</p>
+            </div>
+        </content>
+        <footer>
+            <div class="footer-foot">
+                <center>
+                This is the end of the Jackson Fontaine About page... Yes, yes, I know it's sad. But don't worry! There's more! Just move your eyes upwards till you can see the main navigation bar, and click on 'Home' or 'Back to Hub'. <!--Footer Description--> <!-- -->
+                </center>
+            </div>
+        </footer>
     </body>
     </html>
