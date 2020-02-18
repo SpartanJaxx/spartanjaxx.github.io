@@ -1,25 +1,37 @@
 body {
     top: 0;
     left: 0;
+    background-color: black;
 }
-.title h1{
-    font-family: monospace;
-    font-size: 50px;
-    margin-left: 30%;
-    margin-top: 1%;
+.topleft-div .title{
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    margin-left: 10%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+    margin-top: 10px;
+    background-color: red;
 }
 
-.background h2{
+.topleft-div .logo-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 1%;
+    margin-left: 30px;
+}
+
+h2{
     position: absolute;
     top; 0;
     left: 0;
     z-index: 0;
-    background-color: skyblue;
-    color: skyblue;
+    background-color: white;
+    color: white;
     width: 100%;
     margin-top: -25px;
+    height: 20%;
 }
