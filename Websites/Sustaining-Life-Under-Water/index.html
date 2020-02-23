@@ -6,18 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             body {
-                background-image: url("/Websites/Sustaining-Life-Under-Water/images/wave.png");
+                background-image: url("/Websites/Sustaining-Life-Under-Water/images/background1.png");
                 background-size:100%; 
-                background-attachment: fixed;
                 background-repeat: no-repeat;
             } 
-
         </style>
     </head>
     <link rel="stylesheet" type="text/css" href="home-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
-        <h2>1</h2>
+        <div class="nav-background">1</div>
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">Home</a>
@@ -31,6 +29,12 @@
         <a href="/Websites/Sustaining-Life-Under-Water/index.html">
             <button class="homebtn"><i class="fa fa-home"></i></button>
         </a>
+        <a href="../../index.html">
+            <button class="hubbtn">H<br>U<br>B</button>
+        </a>
+        <div class="title">
+            
+        </div>
         <div class="topleft-div">
             <div class="logo-image">
                 <img src="/Websites/Sustaining-Life-Under-Water/images/stg-logo.png">
@@ -39,17 +43,21 @@
                 <h1>Life <br>Under<br> Water</h1>
             </div>
         </div>
-        <content>
+        <content>    
+            <div class="water-surface">.</div>
+            <div class="underwater-background">
+                <img src="/Websites/Sustaining-Life-Under-Water/images/background2.png">
+            </div>
         </content>
         <script>
             function openNav() {
-              document.getElementById("mySidebar").style.width = "250px";
-              document.getElementById("main").style.marginLeft = "250px";
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
             }
 
             function closeNav() {
-              document.getElementById("mySidebar").style.width = "0";
-              document.getElementById("main").style.marginLeft= "0";
+                document.getElementById("mySidebar").style.width = "0px";
+                document.getElementById("main").style.marginLeft= "0px";
             }
         </script>
     </body>

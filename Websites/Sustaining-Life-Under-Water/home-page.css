@@ -1,23 +1,19 @@
-body {
-    top: 0;
-    left: 0;
-    background-color: skyblue;
-}
 .topleft-div .title{
     font-family: "Helvetica Neue";
-    font-size: 10px;
-    margin-left: 92%;
+    font-size: 11px;
+    margin-left: 92.7%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     margin-top: 7px;
     background-color: ;
+    position: fixed;
 }
 
 .topleft-div .logo-image img{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     border-radius: 50px 0 0 50px;
     position: absolute;
     top: 0;
@@ -25,9 +21,10 @@ body {
     z-index: 1;
     margin-top: 15px;
     margin-left: 86%;
+    position: fixed;
 }
 
-h2{
+.nav-background {
     position: absolute;
     top; 0;
     left: 0;
@@ -37,7 +34,9 @@ h2{
     width: 100%;
     margin-top: -25px;
     height: 18%;
+    position: fixed;
 }
+
 .openbtn {
     font-size: 20px;
     cursor: pointer;
@@ -49,9 +48,10 @@ h2{
     left:0;
     position: absolute;
     z-index: 1;
-    margin-left: 2%;
+    margin-left: 6.5%;
     margin-top: 60px;
     padding-right: 16px;
+    position: fixed;
 }
 
 .homebtn {
@@ -65,51 +65,62 @@ h2{
     left:0;
     position: absolute;
     z-index: 1;
-    margin-left: 2%;
+    margin-left: 6.5%;
     margin-top: 15px;  
+    position: fixed;
+}
+
+.hubbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    top: 0;
+    left:0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 3.2%;
+    margin-top: 15px;  
+    height: 91px;
+    position: fixed;
 }
 
 .homebtn:hover {
     background-color: #444;
 }
-/* The sidepanel menu */
+
+.hubbtn:hover {
+    background-color: #444;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
 .sidebar {
-    height: 250px; /* Specify a height */
+    height: 250px; 
     width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 3; /* Stay on top */
+    position: fixed; 
+    z-index: 3; 
     top: 0;
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #111; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
     /*opacity: 90%;*/
     height: 100%;
 }
-/* The sidepanel links */
-.sidebar a {
+
+.sidebar a { /* The sidepanel links */
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
-}
-
-/* The sidepanel links */
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
 }
 
 .sidebar .closebtn {
@@ -124,12 +135,25 @@ h2{
   background-color: #444;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
+.water-surface {
+    color: darkgray;
+    background-color: darkgray;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 800px;
 }
 
-
+.underwater-background img{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 800px;
+}
 
 
 

@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Me</title>
+        <title>Contact Form</title>
     </head>
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <link rel="stylesheet" type="text/php" href="action-page.php">
-
     <body>
-        <header>
-            <h1>Contact Page</h1>
-        </header>
-        <content>
-            <form action="alert('hi);" method="get" class="contact-form">
-                <label for="name"> First and Last Name: </label><input type="text" id="name">
-
-
-                <input type="submit" value="Submit">
+        <div class="contact-title">
+            <h1>Say Hello</h1>
+            <h2>I happy to hear from you!</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <br>
+                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+                <br>
+                
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
             </form>
-        <br><a href="../../index.html">back to hub</a>
-        </content>
+            
+            
+            
+        </div>
     </body>
-    
 </html>
