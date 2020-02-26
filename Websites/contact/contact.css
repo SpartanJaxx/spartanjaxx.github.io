@@ -67,6 +67,12 @@ form .submit:hover
     cursor: pointer;
 }
 
+.hub {
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
 
 
 
