@@ -1,0 +1,113 @@
+body {
+    background-image: url("hub-images/cosmos-background.jpg");
+    background-size: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+}
+
+header h1 {
+    color: white;
+    width: 40%;
+    float: right;
+    margin-top: 2%;
+    text-align: right;
+    margin-right: 5%;
+    font-family: "Helvetica Neue";
+}
+
+nav li a{
+    color: greenyellow;
+    font-family: "monospace";
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul {
+    float: left;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    list-style: none;
+    margin-top: 25%;
+    margin-left: 2%;
+    padding-right: 40px;
+}
+
+.navigation li a p:hover {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1301px) {
+  header h1 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+header h1 {
+    font-size: 45px;
+  }
+    
+@media screen and (max-width: 933px) {
+  header h1 {
+    font-size: 34px;
+  }
+    
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url("hub-images/cosmos-background-flip.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    header h1 {
+        font-size: 30px;
+        float: none;
+        margin-top: 5%;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul {
+        float: left;
+        margin-left: 80px;
+        margin-top: 20%;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

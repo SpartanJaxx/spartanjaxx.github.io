@@ -1,113 +1,168 @@
-body {
-    background-image: url("hub-images/cosmos-background.jpg");
-    background-size: 100%;
+body, html
+{
+    top: 0;
+    left: 0;
     height: 100%;
-    background-attachment: fixed;
-    background-position: fixed;
-    background-repeat: repeat;
+    margin: 0;
 }
 
-header h1 {
-    color: white;
+.bg
+{
+    background-image: url("images/homebackground.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.title 
+{
+    width: 8%;
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 1%;
+}
+
+.title .word1
+{
+    position: absolute;
+    z-index: 1;    
+    margin-top: 9px;
+    font-size: 20px;
+    margin-left: 11px;
+    font-family: 'Montserrat';
+    color: #C20114;
+}
+
+.title hr 
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: 27px;
+    width: 114px;
+    color: #C7D6D5;
+    height: 2px;
+    background-color: #C7D6D5;
+    border: none;
+    margin-left: 5px;
+}
+
+.title .word2 
+{
+    position: absolute;
+    margin-top: 25px;
+    z-index: 1;
+    margin-left: 22px;
+    font-size: 19px;
+    color: #C20114;
+    font-family: 'Montserrat';
+    
+}
+
+.menu 
+{
+    left: 62%;
+    top: 2%;
     width: 40%;
-    float: right;
-    margin-top: 2%;
-    text-align: right;
-    margin-right: 5%;
-    font-family: "Helvetica Neue";
-}
-
-nav li a{
-    color: greenyellow;
-    font-family: "monospace";
-    text-decoration: none;
+    overflow: auto;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Raleway';
     text-align: center;
+    font-variant-caps: all-petite-caps;
 }
 
-nav ul {
-    float: left;
-    background-color: black;
+.menu a
+{
+    display: inline-flex;
+    width: 23%;
+    color: #C7D6D5;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+
+.menu a:hover 
+{
+    color: #fff;
+}
+
+.menu .homecolor 
+{
+    color: #C20114;
+}
+.featured 
+{
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 40%;
+    top: 50%;
+    left: 60%;
     border-style: solid;
-    border-color: white;
-    list-style: none;
-    margin-top: 25%;
-    margin-left: 2%;
-    padding-right: 40px;
+    border-color: #C7D6D5;
+}
+.featured .background 
+{
+    background-color: #26734d;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
 }
 
-.navigation li a p:hover {
-  background-color: grey;
+
+.background h1 /*This is the title of the featured work section*/
+{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #0C120C;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.featured .link .img /*this is the image of the featured work*/
+{
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+    top: 18%;
+    left: 19%;
+}
+
+.featured .link:hover /*turns featured title and image opacity down*/
+{
+    opacity: 0.8;
+}
+
+.featured .link .featuredtitle /*this is the title of the featured work*/
+{
+    width: 90%;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    text-align: center;
+    font-size: 1vw;
+    text-decoration: underline;
+    color: lightblue;
+    margin-left: 5%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1301px) {
-  header h1 {
-    font-size: 52px;
-  }
+.featured .description /*this is the description for the featured work*/
+{
+    position: absolute;
+    z-index: 3;
+    color: #C7D6D5;
+    margin-top: 225px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.2vw;
 }
 
-@media screen and (max-width: 1300px) {
-header h1 {
-    font-size: 45px;
-  }
-    
-@media screen and (max-width: 933px) {
-  header h1 {
-    font-size: 34px;
-  }
-    
-@media screen and (max-width: 800px) {
-    body {
-        background-image: url("hub-images/cosmos-background-flip.jpg");
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-    header h1 {
-        font-size: 30px;
-        float: none;
-        margin-top: 5%;
-        margin-right: 0;
-        text-align: center;
-        width: 100%;
-    }
-    nav ul {
-        float: left;
-        margin-left: 80px;
-        margin-top: 20%;
-    }
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
