@@ -16,51 +16,6 @@ body, html
     position: relative
 }
 
-.title 
-{
-    width: 8%;
-    position: absolute;
-    z-index: 1;
-    top: 1%;
-    left: 1%;
-}
-
-.title .word1
-{
-    position: absolute;
-    z-index: 1;    
-    margin-top: 9px;
-    font-size: 20px;
-    margin-left: 11px;
-    font-family: 'Montserrat';
-    color: #C20114;
-}
-
-.title hr 
-{
-    position: absolute;
-    z-index: 1;
-    margin-top: 27px;
-    width: 114px;
-    color: #C7D6D5;
-    height: 2px;
-    background-color: #C7D6D5;
-    border: none;
-    margin-left: 5px;
-}
-
-.title .word2 
-{
-    position: absolute;
-    margin-top: 25px;
-    z-index: 1;
-    margin-left: 22px;
-    font-size: 19px;
-    color: #C20114;
-    font-family: 'Montserrat';
-    
-}
-
 .menu 
 {
     left: 62%;
@@ -93,3 +48,66 @@ body, html
 {
     color: #C20114;
 }
+
+.media 
+{
+    width: 50%;
+    position: absolute;
+    z-index: 3;
+    top:40%;
+    left: 30%;
+    margin-left: 5%;
+
+}
+
+.media .social .other img
+{
+    width: 10%; 
+    vertical-align: middle;
+    margin-top: -18.5%;
+    padding: 30px;
+}
+
+.media .social .mail img
+{
+    width: 20%; 
+    transition: translate 2s, rotate 2s;
+}
+
+.media .social .mail img:hover {
+    transform: translate(0px, 200px); 
+    transform: rotate(360deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
