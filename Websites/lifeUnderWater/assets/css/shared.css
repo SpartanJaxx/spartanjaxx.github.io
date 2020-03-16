@@ -1,0 +1,26 @@
+.navbar
+{
+    width: 51%;
+    float: right;
+    text-align: center;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #133863;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Raleway';
+    font-variant-caps: all-petite-caps;
+    font-size: 1.7vw;
+}
+
+.navbar a:hover{
+    color: #236AB9;
+}
+.navbar .selected 
+{
+    color: #609CE1;
+}
+
