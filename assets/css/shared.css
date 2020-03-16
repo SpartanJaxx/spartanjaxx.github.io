@@ -1,44 +1,26 @@
-.title 
+.navbar
 {
-    width: 8%;
-    position: absolute;
-    z-index: 1;
-    top: 1%;
-    left: 1%;
+    width: 51%;
+    float: right;
+    text-align: center;
 }
 
-.title .word1
+.navbar a
 {
-    position: absolute;
-    z-index: 1;    
-    margin-top: 9px;
-    font-size: 20px;
-    margin-left: 11px;
-    font-family: 'Montserrat';
-    color: #C20114;
+    text-decoration: none;
+    color: #133863;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Raleway';
+    font-variant-caps: all-petite-caps;
+    font-size: 1.7vw;
 }
 
-.title hr 
+.navbar a:hover{
+    color: #236AB9;
+}
+.navbar .selected 
 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 27px;
-    width: 114px;
-    color: #C7D6D5;
-    height: 2px;
-    background-color: #C7D6D5;
-    border: none;
-    margin-left: 5px;
+    color: #609CE1;
 }
 
-.title .word2 
-{
-    position: absolute;
-    margin-top: 25px;
-    z-index: 1;
-    margin-left: 22px;
-    font-size: 19px;
-    color: #C20114;
-    font-family: 'Montserrat';
-    
-}
