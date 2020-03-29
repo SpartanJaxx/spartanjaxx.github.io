@@ -1,0 +1,35 @@
+.title {
+    width: 100%;
+    position: absolute;
+}
+
+.title h1{
+    font-size: 75px;
+    letter-spacing: 10px;
+    padding: 0;
+    margin-top: 190px;
+    font-variant-caps: petite-caps;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.title h2{
+    font-size: 30px;
+    padding: 0;
+    margin-top: -50px;
+    letter-spacing: 9px;
+    font-variant-caps: petite-caps;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.basic-background {
+    background-color: #236AB9;
+    color: #236AB9;
+    width: 100%;
+    position: absolute;
+    top: 49%; 
+    height: 51%; 
+    z-index: -1;
+    left: 0;
+}
