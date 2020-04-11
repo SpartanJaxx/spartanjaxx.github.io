@@ -11,6 +11,7 @@ body
     border-style: solid;
     border-color: #091D34;
     border-width: 2px;
+    margin-left: 5px;
 }
 
 .topnav {
