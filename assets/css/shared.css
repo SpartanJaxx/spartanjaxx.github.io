@@ -17,7 +17,7 @@ body
 .topnav {
 
     float: right;
-    margin-top: 20px;
+    margin-top: 2%;
     margin-right: 10px;
 }
 
@@ -30,6 +30,9 @@ body
     font-variant-caps: all-petite-caps;
     font-size: 23px;
 }
+.topnav a:hover {
+    opacity: 0.7;
+}
 
 .topnav .active {
   color: #609CE1;
@@ -41,8 +44,8 @@ body
 }
 
 .icon {
-    margin-right: 5%;
-    margin-top: -90%;
+    margin-right: 3%;
+    margin-top: -50%;
 }
 
 @media screen and (max-width: 850px) {
