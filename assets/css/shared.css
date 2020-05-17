@@ -17,7 +17,7 @@ body
 .topnav {
 
     float: right;
-    margin-top: 2%;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -44,8 +44,8 @@ body
 }
 
 .icon {
+    margin-top: -17px;
     margin-right: 3%;
-    margin-top: -50%;
 }
 
 @media screen and (max-width: 850px) {
