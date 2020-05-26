@@ -1,15 +1,17 @@
-body {
+body 
+{
     background-color: #236AB9;
-    
 }
 
-.title {
+.title 
+{
     width: 100%;
     position: absolute;
     top: 35%;
 }
 
-.title h1{
+.title h1
+{
     font-size: 75px;
     letter-spacing: 10px;
     padding: 0;
@@ -19,7 +21,8 @@ body {
     text-align: center;
 }
 
-.title h2{
+.title h2
+{
     font-size: 30px;
     padding: 0;
     margin-top: 57px;
@@ -29,7 +32,8 @@ body {
     text-align: center;
 }
 
-.basic-background {
+.basic-background
+{
     background-color: #E1ECF9;
     color: #236AB9;
     width: 100%;
@@ -40,7 +44,8 @@ body {
     left: 0;
 }
 
-.slideshow {
+.slideshow 
+{
     border: solid;
     border-color: #E1ECF9;
     border-width: 2px;
@@ -54,10 +59,13 @@ body {
     background-color: grey;
 }
 
-.slideshow img:hover{
+.slideshow img:hover
+{
     opacity: 0.7;
 }
-.slideTexts {
+
+.slideTexts
+{
     position: absolute;
     width: 35%;
     left: 0;
@@ -65,7 +73,13 @@ body {
     top: 80%;
 }
 
-.myTexts h1{
+.mySlides
+{
+    width: 520px;
+}
+
+.myTexts h1
+{
     font-size: 20px;
     text-align: center;
     font-family: 'Inter';
@@ -73,13 +87,15 @@ body {
     text-decoration: underline;
 }
 
-.myTexts p{
+.myTexts p
+{
     font-size: 15px;
     font-family: 'Roboto';
     color: #609CE1;
 }
 
-footer{
+footer
+{
     width: 100%;
     background-color: #133863; 
     color: #609CE1;
@@ -90,54 +106,107 @@ footer{
     font-size: 15px;
 }
 
-@media screen and (max-width: 1100px){
-    .slideTexts{
+@media screen and (max-width: 1100px)
+{
+    .slideTexts
+    {
         top: 79%;
         width: 40%;
     }
-    .slideTexts h1{
+    
+    .slideTexts h1
+    {
         font-size: 18px;
     }
-    .slideTexts p{
+    
+    .slideTexts p
+    {
         font-size: 13px;
     }
 }
 
-@media screen and (max-width: 850px) {
-    .slideshow{
+@media screen and (max-width: 850px)
+{
+    .slideshow
+    {
         width: 70%;
         left: 2%;
         top: 75%;
     }
-    .slideTexts{
+    
+    .slideTexts
+    {
         left: -47%;
         width: 90%;
         text-align: center;
         top: 110%;
     }
-    footer{
+    
+    footer
+    {
         top: 140%;
         font-size: 10px;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .slideshow{
+@media screen and (max-width: 1200px)
+{
+    .mySlides
+    {
+        width: 450px;
+    }
+    
+    .slideshow
+    {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    .mySlides
+    {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .mySlides
+    {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .slideshow
+    {
         width: 70%;
         left: 2%;
         top: 70%;
     }
-    .slideTexts{
+    
+    .slideTexts
+    {
         left: -47%;
         width: 90%;
         text-align: center;
         top: 110%;
     }
-    footer{
+    
+    footer
+    {
         top: 145%;
         font-size: 9px;
     }
-    .title{
+    
+    .title
+    {
         top: 33%;
+    }
+    .mySlides
+    {
+        width: 300px;
     }
 }
