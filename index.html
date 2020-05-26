@@ -21,10 +21,14 @@ Basic - Roboto
 
 <html>
 <head>
-    <title>Life Under Water</title>
+    <!--Website title-->
+    <title>Life Under Water</title> 
 </head>
 
+<!--Website mini icon in tab-->
 <link rel="icon" href="assets/images/shared/logo1.png"/>
+
+<!--Linking to all pages and external sources-->
 <link rel="stylesheet" href="assets/css/hub.css" type="text/css">
 <link rel="stylesheet" href="assets/css/shared.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Inter:100|Raleway|Roboto&display=swap" rel="stylesheet">
@@ -32,11 +36,11 @@ Basic - Roboto
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<style>
-.mySlides {display:none;}
-</style>
 <body>
+    <!--Logo-->
    <img src="assets/images/shared/stg-logo1.png" alt="Life Under Water Logo" class="logo" width="70px" height="70px">
+   
+   <!--Navigation Bar-->
     <div class="topnav" id="myTopnav">
      <div class="dropdown-content">
       <a href="#" class="active">Home</a>
@@ -48,29 +52,37 @@ Basic - Roboto
       </div>
       <a href="javascript:void(0);" style="font-size:40px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+    
+    <!--Title(s)-->
     <div class="title">
         <h2>life under</h2>
         <h1>water</h1>
     </div>
     <div class="basic-background"></div>
     
+    <!--News Acticle Slideshow-->
     <div class="slideshow">
         <div class="slideshowImages">
+           <!--News image #1-->
             <a href="https://dialogochino.net/en/climate-energy/34325-coronavirus-disrupts-critical-year-for-climate/"><img class="mySlides" src="assets/images/homepage/coronavirusarticle.png"></a>
           
-          <a href="https://www.eurasiareview.com/11042020-we-can-still-restore-depleted-marine-life-to-its-former-glory/"><img class="mySlides" src="assets/images/homepage/restorearticle.png"></a>
+            <!--News image #2-->
+            <a href="https://www.eurasiareview.com/11042020-we-can-still-restore-depleted-marine-life-to-its-former-glory/"><img class="mySlides" src="assets/images/homepage/restorearticle.png"></a>
           
-          
+          <!--Arrow Buttons-->
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
           <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
     </div>    
+    <!--Slideshow titles and paragraphs-->
     <div class="slideTexts">
         <div class="slideshowText">
+          <!--#1-->
            <div class="myTexts">
                <h1>Corona Virus Impact on Nature and Climate</h1>
                 <p>Article depicting the effect the Corona Virus is having upon nature and biodiversity.</p><p style="color: white">"This year was also supposed to deliver new global targets for protecting biodiversity. In October, the city of Kunming in southwestern China was scheduled to host COP15, the 15th conference of the parties to the Convention on Biological Diversity (CBD), the most important biodiversity conference in a decade..."</p>
            </div>
+           <!--#2-->
            <div class="myTexts">
                <h1>Can we Still Restore Depleted Marine Life?</h1>
             <p>This article informs the reader of the state of marine life, then going on to explaining what measures can be taken to lessen the decline of marine life.</p>
@@ -78,11 +90,21 @@ Basic - Roboto
            </div>
         </div>
     </div>
+    <!--Footer-->
     <br><br>
     <footer>
         This Website was made by Jackson Fontaine for the benefit of Life Under Water, and a Digital Technology Assignment.
     </footer>
+    
+    
+    
+    
+    
+    
+    
+    
     <script>   
+        //Makes navbar turn into humburger menu 
         function myFunction() {
           var x = document.getElementById("myTopnav");
           if (x.className === "topnav") {
@@ -92,7 +114,7 @@ Basic - Roboto
           }
         }
         
-        
+        //Changes slide index variable when arrows are clicked, therefore changing the slides
         var slideIndex = 1;
         var numSlides = document.getElementsByClassName("mySlides").length;
         showDivs(slideIndex);
@@ -122,6 +144,7 @@ Basic - Roboto
           }
           y[slideIndex-1].style.display = "block";  
         }        
+        
     </script>
 </body>
 

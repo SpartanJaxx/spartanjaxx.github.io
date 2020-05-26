@@ -1,16 +1,16 @@
-body 
+body /*Sets the blue "water" background portion*/
 {
     background-color: #236AB9;
 }
 
-.title 
+.title /*Position the title div*/
 {
     width: 100%;
     position: absolute;
     top: 35%;
 }
 
-.title h1
+.title h1 /*Position the Water title*/
 {
     font-size: 75px;
     letter-spacing: 10px;
@@ -21,7 +21,7 @@ body
     text-align: center;
 }
 
-.title h2
+.title h2 /*Position the Life Under title*/
 {
     font-size: 30px;
     padding: 0;
@@ -32,7 +32,7 @@ body
     text-align: center;
 }
 
-.basic-background
+.basic-background /*Creates the white background*/
 {
     background-color: #E1ECF9;
     color: #236AB9;
@@ -44,7 +44,7 @@ body
     left: 0;
 }
 
-.slideshow 
+.slideshow /*Positioning of the slideshow image*/
 {
     border: solid;
     border-color: #E1ECF9;
@@ -59,12 +59,12 @@ body
     background-color: grey;
 }
 
-.slideshow img:hover
+.slideshow img:hover /*Image changes color to symbolize a link*/
 {
     opacity: 0.7;
 }
 
-.slideTexts
+.slideTexts /*Position of all of texts for slideshow*/
 {
     position: absolute;
     width: 35%;
@@ -73,12 +73,13 @@ body
     top: 80%;
 }
 
-.mySlides
+.mySlides /*Fitting image*/
 {
     width: 520px;
+    display: none;
 }
 
-.myTexts h1
+.myTexts h1 /*Slideshow title customization*/
 {
     font-size: 20px;
     text-align: center;
@@ -87,14 +88,14 @@ body
     text-decoration: underline;
 }
 
-.myTexts p
+.myTexts p /*Slideshow paragraph customization*/
 {
     font-size: 15px;
     font-family: 'Roboto';
     color: #609CE1;
 }
 
-footer
+footer /*Position and css of footer*/
 {
     width: 100%;
     background-color: #133863; 
@@ -106,7 +107,18 @@ footer
     font-size: 15px;
 }
 
-@media screen and (max-width: 1100px)
+
+
+
+
+
+
+
+
+
+/*ALL ON RESPONSIVENESS - ESPECIALLY FOR SLIDESHOW*/
+
+@media screen and (max-width: 1100px) 
 {
     .slideTexts
     {
@@ -125,7 +137,7 @@ footer
     }
 }
 
-@media screen and (max-width: 850px)
+@media screen and (max-width: 850px) 
 {
     .slideshow
     {
