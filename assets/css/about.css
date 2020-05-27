@@ -1,0 +1,44 @@
+body
+{
+    top: 0;
+    left: 0;
+}
+
+.aboutTitle
+{
+    font-family: "Inter";
+    font-variant-caps: all-petite-caps;
+    position: absolute;
+    font-size: 10;
+    margin-left: 5%;
+}
+
+.aboutBackground
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #236AB9;
+    top: 10%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.whatAre h2
+{
+    font-family: "Raleway";
+    font-variant-caps: all-petite-caps;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.logo
+{
+    margin-top: -10px;
+}
+
+.topnav 
+{
+    margin-top: 3px;
+}
