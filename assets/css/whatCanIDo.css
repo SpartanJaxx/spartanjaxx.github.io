@@ -1,0 +1,102 @@
+body
+{
+    top: 0;
+    left: 0;
+    background-color: #133863;
+    /*background-image: url("../images/clouds.png");
+    background-size: 100px;*/
+}
+
+.wBackground
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #E1ECF9;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+}
+
+.wBackgroundTwo
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #236AB9;
+    top: 30%;
+    left: 0;
+    height: 70%;
+    width: 100%;    
+}
+
+.container
+{
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    z-index: 2;
+    height: 100%;
+}
+
+
+
+.container .intro
+{
+    text-align: center;
+    font-family: "Raleway";
+    color: #609CE1;
+    font-size: 20px;
+}
+
+.container ul
+{
+    list-style: decimal;
+    margin-left: 5%;
+}
+
+.container .everydayLife
+{
+    margin-top: 75px;
+}
+
+.container h2
+{
+    color: #091D34;
+    font-family: "Inter";
+    margin-left: 2%;
+}
+
+.container li 
+{
+    width: 75%;
+    color: #091D34;
+    font-family: "Roboto";
+}
+
+.container .everydayLife .image1
+{
+    width: 20%;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -145px;
+    height: 20%;
+    overflow: hidden;
+}
+
+.container .extraSteps .image2
+{
+    width: 20%;
+    position: absolute;
+    margin-left: 80%;
+    height: 20%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
