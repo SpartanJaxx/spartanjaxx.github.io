@@ -90,6 +90,7 @@ body
     position: absolute;
     margin-left: 80%;
     height: 20%;
+    margin-top: -155px;
     overflow: hidden;
 }
 

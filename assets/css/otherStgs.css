@@ -1,0 +1,103 @@
+body
+{
+    background-color: #133863;
+}
+
+.wBackground
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #E1ECF9;
+    top: 0;
+    left: 0;
+    height: 10.5%;
+    width: 100%;
+}
+
+.wBackgroundTwo
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #236AB9;
+    top: 10.5%;
+    left: 0;
+    height: 70%;
+    width: 100%;    
+}
+
+container
+{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 15%;
+    height: 100%;
+}
+
+container .luwImages
+{
+    width: 100px;
+}
+
+container .goal14
+{
+    position: absolute; 
+    font-family: "Inter";
+    margin-top: -70px;
+    margin-left: 150px;
+    
+}
+
+container ul
+{
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+container li
+{
+    height: 75px;
+    margin-top: 10px;
+    width: 45%;
+    text-decoration: none;
+}
+
+container li img
+{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    text-decoration: none;
+}
+
+container li h1
+{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 0px;
+    font-family: "Inter";
+    font-variant-caps: all-small-caps;
+    text-decoration: none;
+}
+
+container li h2
+{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 35px;
+    font-family: "Raleway";
+    font-variant-caps: all-small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

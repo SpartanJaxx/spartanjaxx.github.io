@@ -22,7 +22,7 @@ body
     background-color: #E1ECF9;
     top: 0;
     left: 0;
-    height: 10%;
+    height: 45%;
     width: 100%;
 }
 
@@ -31,9 +31,9 @@ body
     z-index: -1;
     position: absolute;
     background-color: #236AB9;
-    top: 10%;
+    top: 45%;
     left: 0;
-    height: 70%;
+    height: 80%;
     width: 100%;    
 }
 
