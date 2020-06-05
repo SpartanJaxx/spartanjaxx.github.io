@@ -1,0 +1,53 @@
+body
+{
+    background-color: #133863;
+}
+
+
+.wBackgroundTwo
+{
+    z-index: -1;
+    position: absolute;
+    background-color: #236AB9;
+    top: 0%;
+    left: 0;
+    height: 65%;
+    width: 100%;    
+}
+
+.container
+{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container .websiteSection
+{
+    position: absolute;
+    width: 60%;
+    height 40%;
+    left: 20%;
+    top: 20%;
+    background-color: red;
+}
+
+.container .websiteSection h1
+{
+    text-align: center;
+    font-family: "Inter";
+    color: #E1ECF9;
+}
+
+.container .websiteSection img
+{
+    width: 200px;
+    margin-top: 50px;
+}
+
+.container .websiteSection p
+{
+    position: absolute; 
+    margin-left: 240px;
+    margin-top: -90px;
+}
