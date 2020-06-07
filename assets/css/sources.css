@@ -17,22 +17,21 @@ body
 
 .container
 {
-    width: 100%;
-    top: 0;
-    left: 0;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 20%;
+    left: 20%;
+    background-color: blue;
 }
 
 .container .websiteSection
 {
     position: absolute;
-    width: 60%;
-    height 40%;
-    left: 20%;
-    top: 20%;
-    background-color: red;
+    width: 100%;
 }
 
-.container .websiteSection h1
+.container h1
 {
     text-align: center;
     font-family: "Inter";
@@ -43,11 +42,81 @@ body
 {
     width: 200px;
     margin-top: 50px;
+    position: absolute;
 }
 
+.container .websiteSection a:hover
+{
+    opacity: 0.7;
+}
+
+.container .websiteSection h2
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: "Raleway";
+    color: #609CE1;
+}
 .container .websiteSection p
 {
     position: absolute; 
-    margin-left: 240px;
-    margin-top: -90px;
+    margin-left: 220px;
+    margin-top: 100px;
+    font-family: "Roboto";
+    color: #091D34;
 }
+
+
+.container .websiteSection2
+{
+    position: absolute;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.container .websiteSection2 h1
+{
+    text-align: center;
+    font-family: "Inter";
+    color: #E1ECF9;
+}
+
+.container .websiteSection2 img
+{
+    width: 200px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.container .websiteSection2 a:hover
+{
+    opacity: 0.7;
+}
+
+.container .websiteSection2 h2
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: "Raleway";
+    color: #609CE1;
+}
+.container .websiteSection2 p
+{
+    position: absolute; 
+    margin-left: 220px;
+    margin-top: 100px;
+    font-family: "Roboto";
+    color: #091D34;
+}
+
+.container .allSources
+{
+    margin-top: 500px;
+}
+
