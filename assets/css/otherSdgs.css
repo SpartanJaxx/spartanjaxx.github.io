@@ -92,23 +92,43 @@ body
     color: #609CE1;
 }
 
-.detailone
+.detailOne
 {
     position: absolute;
     z-index: 1;
     top: 50%;
 }
 
-.detailone img
+.detailOne img
 {
     width: 200px;
 }
 
+.detailTwo
+{
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 80%;
+}
 
+.detailTwo img
+{
+    width: 200px;
+}
 
+.detailThree 
+{
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 10%;
+}
 
-
-
+.detailThree img
+{
+    width: 200px;
+}
 
 
 

@@ -65,7 +65,7 @@ body
     margin-left: 220px;
     margin-top: 100px;
     font-family: "Roboto";
-    color: #091D34;
+    color: #E1ECF9;
 }
 
 
@@ -111,7 +111,7 @@ body
     margin-left: 220px;
     margin-top: 100px;
     font-family: "Roboto";
-    color: #091D34;
+    color: #E1ECF9;
 }
 
 .container .allSources
@@ -119,3 +119,13 @@ body
     margin-top: 500px;
 }
 
+.container ul a 
+{
+    color: blue;
+    font-family: "Roboto";
+}
+
+.container ul a:hover
+{
+    opacity: 0.8;
+}
