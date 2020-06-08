@@ -69,15 +69,6 @@ body
     color: #091D34;
 }
 
-.whatAreImage 
-{
-    top: 17%;
-    position: absolute;
-    width: 23%;
-    height: 20%;
-    overflow: hidden;
-    left: 60%;
-}
 
 .whatAreImage img
 {
@@ -123,11 +114,6 @@ body
 
 
 
-
-
-
-
-
 .stats 
 {
     position: absolute;
@@ -136,32 +122,21 @@ body
     width: 100%;
 }
 
-.stats h1
-{
-    text-align: center;
-    font-family: "Inter";
-    font-variant-caps: all-petite-caps;
-    color: #609CE1;
-}
-
-.stats .statsGraph
-{
-    width: 25%;
-    position: absolute;
-    left: 10%;
-    margin-top: 20px;
-}
-
 .stats ul
 {
-    color: #091D34;
+    color: #E1ECF9;
     position: absolute;
-    left: 40%;
+    left: 23%;
     font-size: 20px;
     font-family: "Roboto";
     width: 48%;
+    text-align: center;
 }
 
+.stats ul li
+{
+    text-decoration: none;
+}
 
 
 
