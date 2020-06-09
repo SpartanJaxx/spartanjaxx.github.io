@@ -52,10 +52,9 @@ body
 .container .websiteSection h2
 {
     position: absolute;
-    text-align: center;
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 220px;
     font-family: "Raleway";
     color: #609CE1;
 }
@@ -98,10 +97,9 @@ body
 .container .websiteSection2 h2
 {
     position: absolute;
-    text-align: center;
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 220px;
     font-family: "Raleway";
     color: #609CE1;
 }
@@ -119,13 +117,98 @@ body
     margin-top: 500px;
 }
 
+.container ul
+{
+    width: 30%;
+    margin-left: 32%;
+}
+
 .container ul a 
 {
     color: blue;
     font-family: "Roboto";
+    text-decoration: none;
+}
+
+.container ul li 
+{
+    text-decoration: none;
 }
 
 .container ul a:hover
 {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 850px)
+{
+    .websiteSection
+    {
+        width: 90%;
+        margin-left: -50px;
+    }
+    
+    .websiteSection h1
+    {
+        margin-left: 50px;
+    }
+    
+    .websiteSection2
+    {
+        width: 90%;
+        margin-left: -50px;
+    }
+    
+    .websiteSection p
+    {
+        width: 80%;
+    }
+    
+    .websiteSection2 p
+    {
+        width: 80%;
+    }
+    
+    .websiteSection a h2
+    {
+        margin-left: 300px;
+    }
+    
+    .container ul
+    {
+        width: 30%;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .websiteSection p
+    {
+        font-size: 13px;
+        width: 75%;
+    }
+    
+    .websiteSection h1 
+    {
+        margin-left: 100px;
+    }
+    
+    .websiteSection2 p
+    {
+        font-size: 13px;
+        width: 75%;
+    }
+    
+    img 
+    {
+        margin-left: -20px;
+    }
+    
+    .container ul
+    {
+        width: 30%;
+        margin-left: 22%;
+    }
+}
+

@@ -141,6 +141,53 @@ body
 
 
 
+@media screen and (max-width: 850px)
+{
+    .whatAre p
+    {
+        width: 80%;
+    }
+    
+    .whatIs
+    {
+        width: 55%;
+        margin-top: 160px;
+        margin-left: -110px;
+    }
+    
+    .whatIs h2
+    {
+        margin-left: 70px;
+    }
+    
+    .whatIs p
+    {
+        width: 110%;
+    }
+    
+    .whatIsImage
+    {
+        width: 300px;
+        margin-left: 20px;
+    }
+    
+    .stats ul
+    {
+        margin-top: 220px;
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .whatAre
+    {
+        width: 70%;
+        margin-top: -50px;
+    }
+}
+
+
 
 
 
