@@ -1,8 +1,16 @@
+/*Basic setup*/
 body
 {
+    top: 0;
+    left: 0;
     background-color: #133863;
 }
 
+
+
+
+
+/*Background water colors setup*/
 .wBackground
 {
     z-index: -1;
@@ -13,7 +21,6 @@ body
     height: 10.5%;
     width: 100%;
 }
-
 .wBackgroundTwo
 {
     z-index: -1;
@@ -25,6 +32,10 @@ body
     width: 100%;    
 }
 
+
+
+
+/*Container setup*/
 .container
 {
     position: absolute;
@@ -34,14 +45,13 @@ body
     top: 15%;
     height: 100%;
 }
-
+/*Goal 14 image positioning*/
 .container .luwImages
 {
     width: 100px;
     margin-left: -60px;
 }
-
-
+/*Goal 14 text*/
 .container .goal14
 {
     position: absolute; 
@@ -51,14 +61,13 @@ body
     font-variant-caps: all-petite-caps;
     color: #609CE1;
 }
-
-
+/*List of SDGs positioning*/
 .container ul
 {
     margin-top: 100px;
     text-decoration: none;
 }
-
+/*List text positioning*/
 .container li
 {
     height: 75px;
@@ -66,7 +75,7 @@ body
     width: 45%;
     text-decoration: none;
 }
-
+/*Image positioning*/
 .container li img
 {
     width: 75px;
@@ -74,7 +83,7 @@ body
     position: absolute;
     text-decoration: none;
 }
-
+/*More adujustments to the ext positioning*/
 .container li a
 {
     position: absolute;
@@ -86,19 +95,23 @@ body
     font-size: 25px;
     color: #E1ECF9;
 }
-
+/*Changes colors when hovering over, represents links*/
 .container li a:hover
 {
     color: #609CE1;
 }
 
+
+
+
+
+/*Background images css*/
 .detailOne
 {
     position: absolute;
     z-index: 1;
     top: 50%;
 }
-
 .detailOne img
 {
     width: 200px;
@@ -111,7 +124,6 @@ body
     top: 80%;
     left: 80%;
 }
-
 .detailTwo img
 {
     width: 200px;
@@ -124,12 +136,18 @@ body
     top: 110%;
     left: 10%;
 }
-
 .detailThree img
 {
     width: 200px;
 }
 
+
+
+/*RESPONSIVNESS*/
+
+
+
+/*Resizing at 850px*/
 @media screen and (max-width: 850px)
 {
     .container li a
@@ -144,6 +162,7 @@ body
     }
 }
 
+/*Resizing at 600px*/
 @media screen and (max-width: 600px)
 {
     .container li a

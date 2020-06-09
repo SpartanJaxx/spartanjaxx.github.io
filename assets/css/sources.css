@@ -1,9 +1,15 @@
+/*Basic setup*/
 body
 {
+    top: 0;
+    left: 0;
     background-color: #133863;
 }
 
 
+
+
+/*water background positioning+sizing*/
 .wBackgroundTwo
 {
     z-index: -1;
@@ -15,6 +21,10 @@ body
     width: 100%;    
 }
 
+
+
+
+/*Container*/
 .container
 {
     position: absolute;
@@ -23,32 +33,32 @@ body
     top: 20%;
     left: 20%;
 }
-
+/*positioning of website section*/
 .container .websiteSection
 {
     position: absolute;
     width: 100%;
 }
-
+/*positioning of website title*/
 .container h1
 {
     text-align: center;
     font-family: "Inter";
     color: #E1ECF9;
 }
-
+/*website images css*/
 .container .websiteSection img
 {
     width: 200px;
     margin-top: 50px;
     position: absolute;
 }
-
+/*hover to represent link*/
 .container .websiteSection a:hover
 {
     opacity: 0.7;
 }
-
+/*Different website titles*/
 .container .websiteSection h2
 {
     position: absolute;
@@ -58,6 +68,7 @@ body
     font-family: "Raleway";
     color: #609CE1;
 }
+/*Css for each website paragraph*/
 .container .websiteSection p
 {
     position: absolute; 
@@ -66,34 +77,33 @@ body
     font-family: "Roboto";
     color: #E1ECF9;
 }
-
-
+/*Positioning of website 2*/
 .container .websiteSection2
 {
     position: absolute;
     width: 100%;
     margin-top: 250px;
 }
-
+/*Positioning of website title*/
 .container .websiteSection2 h1
 {
     text-align: center;
     font-family: "Inter";
     color: #E1ECF9;
 }
-
+/*Positioning of website image*/
 .container .websiteSection2 img
 {
     width: 200px;
     margin-top: 50px;
     position: absolute;
 }
-
+/*change color to represent link*/
 .container .websiteSection2 a:hover
 {
     opacity: 0.7;
 }
-
+/*Website title 2*/
 .container .websiteSection2 h2
 {
     position: absolute;
@@ -103,6 +113,7 @@ body
     font-family: "Raleway";
     color: #609CE1;
 }
+/*Paragraph for second website css*/
 .container .websiteSection2 p
 {
     position: absolute; 
@@ -111,35 +122,37 @@ body
     font-family: "Roboto";
     color: #E1ECF9;
 }
-
+/*Positioning of sources*/
 .container .allSources
 {
     margin-top: 500px;
 }
-
+/*List adjustments*/
 .container ul
 {
     width: 30%;
     margin-left: 32%;
 }
-
+/*Font*/
 .container ul a 
 {
     color: blue;
     font-family: "Roboto";
     text-decoration: none;
 }
-
-.container ul li 
-{
-    text-decoration: none;
-}
-
+/*represent links*/
 .container ul a:hover
 {
     opacity: 0.8;
 }
 
+
+
+/*RESPONSIVNESS*/
+
+
+
+/*Resizing at 850px*/
 @media screen and (max-width: 850px)
 {
     .websiteSection
@@ -181,6 +194,8 @@ body
     }
 }
 
+
+/*Resizing at 700px*/
 @media screen and (max-width: 700px)
 {
     .websiteSection p

@@ -1,12 +1,16 @@
+/*Basic setup*/
 body
 {
     top: 0;
     left: 0;
     background-color: #133863;
-    /*background-image: url("../images/clouds.png");
-    background-size: 100px;*/
 }
 
+
+
+
+
+/*Background colors*/
 .wBackground
 {
     z-index: -1;
@@ -17,7 +21,6 @@ body
     height: 30%;
     width: 100%;
 }
-
 .wBackgroundTwo
 {
     z-index: -1;
@@ -29,6 +32,11 @@ body
     width: 100%;    
 }
 
+
+
+
+
+/*Main container*/
 .container
 {
     position:absolute;
@@ -38,9 +46,7 @@ body
     z-index: 2;
     height: 100%;
 }
-
-
-
+/*Adjustment of quote*/
 .container .intro
 {
     text-align: center;
@@ -48,32 +54,26 @@ body
     color: #609CE1;
     font-size: 20px;
 }
-
-.container ul
-{
-    list-style: decimal;
-    margin-left: 5%;
-}
-
+/*First section adjustment*/
 .container .everydayLife
 {
     margin-top: 75px;
 }
-
+/*Title customization*/
 .container h2
 {
     color: #133863;
     font-family: "Inter";
     margin-left: 2%;
 }
-
+/*List adjustments*/
 .container li 
 {
     width: 75%;
     color: #E1ECF9;
     font-family: "Roboto";
 }
-
+/*Recycle image positioning*/
 .container .everydayLife .image1
 {
     width: 20%;
@@ -83,8 +83,7 @@ body
     height: 20%;
     overflow: hidden;
 }
-
-
+/*Underwater image positioning*/
 .container .extraSteps .image2
 {
     width: 20%;
@@ -96,6 +95,12 @@ body
 }
 
 
+
+/*RESPONSIVNESS*/
+
+
+
+/*Adjustments at 850px*/
 @media screen and (max-width: 850px)
 {
     .intro

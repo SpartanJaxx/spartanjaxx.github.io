@@ -5,16 +5,7 @@ body
     background-color: #133863;
 }
 
-.aboutTitle
-{
-    font-family: "Inter";
-    font-variant-caps: all-petite-caps;
-    position: absolute;
-    font-size: 10;
-    margin-left: 5%;
-}
-
-
+/*Positioning of "Ocean" background*/
 .aboutBackground
 {
     z-index: -1;
@@ -37,16 +28,13 @@ body
     width: 100%;    
 }
 
+/*Logo Positioning*/
 .logo
 {
     margin-top: 3px;
     position: absolute;
 }
 
-.topnav 
-{
-    margin-top: 10px;
-}
 
 .whatAre
 {
