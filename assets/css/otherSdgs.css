@@ -141,6 +141,17 @@ body
     width: 200px;
 }
 
+.detailFour
+{
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 90%;
+}
+.detailFour img
+{
+    width: 100px;
+}
 
 
 /*RESPONSIVNESS*/
