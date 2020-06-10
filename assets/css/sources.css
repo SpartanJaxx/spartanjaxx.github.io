@@ -146,6 +146,21 @@ body
     opacity: 0.8;
 }
 
+/*Aesthetic Image positioning*/
+.backgroundImage2
+{
+    position: absolute;
+    z-index: -1;
+    left: 60%;
+    top: 100%;
+}
+.backgroundImage3
+{
+    position: absolute;
+    z-index: -1;
+    left: 70%;
+    top: 10%;
+}
 
 
 /*RESPONSIVNESS*/

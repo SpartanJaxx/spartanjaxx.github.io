@@ -152,7 +152,13 @@ body
 {
     width: 100px;
 }
-
+.detailFive
+{
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 10%;
+}
 
 /*RESPONSIVNESS*/
 

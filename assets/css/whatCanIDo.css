@@ -96,6 +96,23 @@ body
 
 
 
+/*Aesthetic Image position*/
+.backgroundImage1
+{
+    position: absolute; 
+    left: 40%;
+    top: 56%;
+    z-index: -1;
+}
+.backgroundImage2
+{
+    position: absolute; 
+    left: 2%;
+    top: 80%;
+    z-index: -1;
+}
+
+
 /*RESPONSIVNESS*/
 
 
