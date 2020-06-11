@@ -152,7 +152,7 @@ footer /*Position and css of footer*/
 {
     .mySlides
     {
-        width: 1000px;
+        width: 950px;
     }
 }
 
@@ -233,6 +233,11 @@ footer /*Position and css of footer*/
     .mySlides
     {
         width: 450px;
+    }
+    .slideshow
+    {
+        height: 200px;
+        top: 95%;
     }
 }
 
