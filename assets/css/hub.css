@@ -237,7 +237,19 @@ footer /*Position and css of footer*/
     .slideshow
     {
         height: 200px;
-        top: 95%;
+        top: 82%;
+    }
+    .backgroundImage1
+    {
+        display: none;
+    }
+    .backgroundImage1 img
+    {
+        display: none;
+    }
+    .backgroundImage2
+    {
+        display: none;
     }
 }
 
