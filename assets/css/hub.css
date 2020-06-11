@@ -146,6 +146,24 @@ footer /*Position and css of footer*/
 
 /*ALL ON RESPONSIVENESS - ESPECIALLY FOR SLIDESHOW*/
 
+
+
+@media screen and (min-width: 1400px)
+{
+    .mySlides
+    {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .mySlides
+    {
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 1100px) 
 {
     .slideTexts
@@ -250,3 +268,4 @@ footer /*Position and css of footer*/
         width: 300px;
     }
 }
+

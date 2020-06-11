@@ -160,17 +160,9 @@ body
     position: absolute;
     z-index: -1;
     top: 140%;
-    left: 80%;
+    margin-left: 80%;
 }
-.backgroundImage3
-{
-    position: absolute;
-    z-index: -1;
-    top: 76%;
-    left: 80%;
-    overflow: hidden;
-    overflow-x: hidden;
-}
+
 
 
 /*RESPONSIVNESS*/

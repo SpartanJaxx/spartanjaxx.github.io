@@ -37,6 +37,7 @@ Basic - Roboto
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <body>
+   <div id="mainContent" class="content">
     <!--Logo-->
     <a href="index.html"><img src="assets/images/shared/stg-logo1.png" alt="Life Under Water Logo" class="logo" width="70px" height="70px" alt="logo, also a button for homepage"></a>
    
@@ -50,7 +51,7 @@ Basic - Roboto
       <a href="assets/pages/sources.html">Sources</a>
       </div>
       <a href="javascript:void(0);" style="font-size:40px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+       </div>
     
     <!--Title(s)-->
     <div class="title">
@@ -115,11 +116,7 @@ Basic - Roboto
     <footer>
         This Website was made by Jackson Fontaine for the benefit of Life Under Water, and a Digital Technology Assignment.
     </footer>
-    
-    
-    
-    
-    
+    </div>
     
     
     
@@ -166,6 +163,13 @@ Basic - Roboto
           y[slideIndex-1].style.display = "block";  
         }        
         
+        //Atempting to make Dyslexia font button option
+        function fontToggle(){
+            var element = document.body;
+            element.classList.toggle("dyslexicfont-content");
+            var content = document.getElementById("mainContent");
+            content.classList.toggle("dyslexicfont-content");
+        }
     </script>
 </body>
 
