@@ -145,7 +145,7 @@ body
 {
     position: absolute;
     z-index: 1;
-    top: 160%;
+    margin-top: 90%;
     left: 90%;
 }
 .detailFour img
