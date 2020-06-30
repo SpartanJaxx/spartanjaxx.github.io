@@ -152,14 +152,14 @@ body
     position: absolute;
     z-index: -1;
     left: 60%;
-    top: 100%;
+    margin-top: 32%;
 }
 .backgroundImage3
 {
     position: absolute;
     z-index: -1;
     left: 70%;
-    top: 10%;
+    margin-top: 10%;
 }
 
 
